@@ -325,7 +325,7 @@ public class SmackCcsClient {
 		config.setDebuggerEnabled(false);
 
 		// -Dsmack.debugEnabled=true
-		XMPPConnection.DEBUG_ENABLED = false;
+		XMPPConnection.DEBUG_ENABLED = true;
 
 		connection = new XMPPConnection(config);
 		connection.connect();
